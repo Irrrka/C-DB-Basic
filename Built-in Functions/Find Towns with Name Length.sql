@@ -1,0 +1,4 @@
+SELECT T.Name
+FROM Towns as T
+WHERE LEN(T.Name) IN (5,6)
+ORDER BY T.Name
