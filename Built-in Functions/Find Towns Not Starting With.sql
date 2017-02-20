@@ -1,0 +1,6 @@
+SELECT *
+FROM Towns as T
+WHERE SUBSTRING(T.Name,1,1) <>'B'
+AND SUBSTRING(T.Name,1,1) <>'D'
+AND SUBSTRING(T.Name,1,1) <>'R'
+ORDER BY T.Name
